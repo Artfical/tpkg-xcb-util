@@ -1,0 +1,34 @@
+{
+ "name": "xcb-util",
+ "version": "0.4.1",
+ "license": "MIT",
+ "homepage": "https://xcb.freedesktop.org",
+ "licenses": [
+  "LICENSE-xcb-util",
+  "LICENSE-xcb-util-image",
+  "LICENSE-xcb-util-keysyms",
+  "LICENSE-xcb-util-renderutil",
+  "LICENSE-xcb-util-wm",
+  "LICENSE-xcb-util-cursor",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "xcb-util-0.4.1.tar.xz",
+  "xcb-util-image-0.4.1.tar.xz",
+  "xcb-util-keysyms-0.4.1.tar.xz",
+  "xcb-util-renderutil-0.3.10.tar.xz",
+  "xcb-util-wm-0.4.2.tar.xz",
+  "xcb-util-cursor-0.1.5.tar.xz"
+ ],
+ "desc": "xcb-util libraries: icccm, ewmh, image, keysyms, render-util, cursor (what Qt and window managers use on top of libxcb)",
+ "file": "xcb-util-0.4.1.tpkg",
+ "size": 61256,
+ "sha256": "02aac32396896ffe340fcd5f059797c3164870cec4443c025fe3ef10d3a75b59",
+ "unpacked": 233594,
+ "min_build": 618,
+ "depends": [
+  "xorg",
+  "xcb-libs"
+ ],
+ "commands": {}
+}
